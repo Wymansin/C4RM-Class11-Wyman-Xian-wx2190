@@ -7,7 +7,7 @@ def getBondDuration(y, face, couponRate, m, ppy = 1):
   pvcft = 0
   
   for t in range(m):
-    pvcf = cf * (1 + y) ^ -t
+    pvcf = cf * (1 + y) ** -t
     tot = tot + pvcf
     pvcft = pvcft + pvcf * t
   
