@@ -12,10 +12,10 @@ def FizzBuzz(start, finish):
     
     
     elif ((i + start) % 5 == 0):
-      v.append("Buzz")
+      v.append("buzz")
     
     elif ((i + start) % 3 == 0):
-      v.append("Fizz")
+      v.append("fizz")
     
     else:
       v.append(i + start)
